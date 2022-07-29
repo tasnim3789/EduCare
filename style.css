@@ -1,7 +1,8 @@
-.img-bg{
-   background-blend-mode: darken;
+.bg-color img{
+   /* background-blend-mode: darken;
    background: #070707;
-   box-shadow: #070707;
+   box-shadow: #070707; */
+   filter: brightness(50%);
    /* background-image: inset 0 0 5rem rgb(0, 0, 0); */
  }
  /* Custom default button */
@@ -11,18 +12,21 @@
   color: rgb(255, 255, 255);
   text-shadow: none; /* Prevent inheritance from `body` */
 }
-.slider-text{
+/* .slider-text{
    position: absolute;
    padding-top : 10%;
    padding-bottom: 50%;
-}
-
-
+} */
+ 
+/* main p{
+   color: darkgrey;
+   align-self: center;
+} */
 .edu-bg-info{
    background: #F4FAFD;
 border-radius: 5px;
 }
 
-/* .edu-text-blue{
-   color:rgb(89, 0, 255);
-} */
+.resgister-btn{
+   padding-left: 510%;
+}
