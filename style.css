@@ -1,32 +1,18 @@
+
+
 .bg-color img{
-   /* background-blend-mode: darken;
-   background: #070707;
-   box-shadow: #070707; */
    filter: brightness(50%);
-   /* background-image: inset 0 0 5rem rgb(0, 0, 0); */
+
  }
  /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: rgb(255, 255, 255);
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none; 
 }
-/* .slider-text{
-   position: absolute;
-   padding-top : 10%;
-   padding-bottom: 50%;
-} */
- 
-/* main p{
-   color: darkgrey;
-   align-self: center;
-} */
+
 .edu-bg-info{
    background: #F4FAFD;
 border-radius: 5px;
-}
-
-.resgister-btn{
-   padding-left: 510%;
 }
