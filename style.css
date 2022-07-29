@@ -1,18 +1,17 @@
-
-
-.bg-color img{
+.bg-color img {
    filter: brightness(50%);
 
- }
- /* Custom default button */
+}
+
+/* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: rgb(255, 255, 255);
-  text-shadow: none; 
+   color: rgb(255, 255, 255);
+   text-shadow: none;
 }
 
-.edu-bg-info{
+.edu-bg-info {
    background: #F4FAFD;
-border-radius: 5px;
+   border-radius: 5px;
 }
